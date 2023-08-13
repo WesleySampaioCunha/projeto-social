@@ -113,4 +113,12 @@ img#youtube:hover{
     border: 1px solid rgba(255, 0, 0, 0.719);
 }
 
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
+
 
