@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background: url('../imagens_midiasociais/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+main {
+    position: relative;
+    height: 100vh;
+    
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 400px;
+    background: url('../imagens_midiasociais/frame-iphone.png') no-repeat;
+}
+
+section#midias {
+
+    text-align: right;
+    padding: 80px;
+    margin: 5px;
+}
+
+img#home {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+img#home:hover {
+    border: 1px solid lightgray;
+
+}
+
+
+img#git {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: url('https://github.com/WesleySampaioCunha');
+}
+
+img#git:hover{
+    border: 1px solid lightgreen;
+}
+
+img#face {
+     width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+img#face:hover{
+    border: 1px solid rgb(95, 95, 231);
+}
+
+img#insta {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+img#insta:hover{
+    border: 1px solid purple;
+}
+
+img#twitter {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+img#twitter:hover{
+    border: 1px solid lightskyblue;
+}
+
+img#youtube{
+     width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+img#youtube:hover{
+    border: 1px solid rgba(255, 0, 0, 0.719);
+}
+
+
