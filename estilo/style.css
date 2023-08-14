@@ -37,88 +37,70 @@ section#telefone {
     background: url('../imagens_midiasociais/frame-iphone.png') no-repeat;
 }
 
-section#midias {
-
-    text-align: right;
-    padding: 80px;
-    margin: 5px;
-}
-
-img#home {
-    width: 60px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-
-img#home:hover {
-    border: 1px solid lightgray;
-
-}
-
-
-img#git {
-    width: 60px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius: 50%;
-    background: url('https://github.com/WesleySampaioCunha');
-}
-
-img#git:hover{
-    border: 1px solid lightgreen;
-}
-
-img#face {
-     width: 60px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-
-img#face:hover{
-    border: 1px solid rgb(95, 95, 231);
-}
-
-img#insta {
-    width: 60px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-
-img#insta:hover{
-    border: 1px solid purple;
-}
-
-img#twitter {
-    width: 60px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-
-img#twitter:hover{
-    border: 1px solid lightskyblue;
-}
-
-img#youtube{
-     width: 60px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-
-img#youtube:hover{
-    border: 1px solid rgba(255, 0, 0, 0.719);
-}
-
 iframe#tela{
     position: relative;
     top: 80px;
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+section#midias {
+    text-align: right;
+}
+
+section#midias img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+img#home:hover{
+    border: 1px solid rgba(128, 128, 128, 0.603);
+    transform: translate(-5px, -5px);
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.650);
+    transition: transform .3s;
+}
+
+img#git:hover{
+    border: 2px solid green;
+    transform: translate(-5px , -5px);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.650);
+    transition: transform .3s;
+}
+
+img#face:hover {
+    border: 2px solid rgba(55, 55, 255, 0.753);
+    transform: translate(-5px , -5px);
+    transform: translate(-5px, -5px);
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.650);
+    transition: transform .3s;
+}
+
+img#insta:hover {
+    border: 2px solid rgb(177, 106, 177);
+    transform: translate(-5px , -5px);
+    transform: translate(-5px, -5px);
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.650);
+    transition: transform .2s;
+}
+
+img#twitter:hover {
+    border: 2px solid blanchedalmond;
+    transform: translate(-5px , -5px);
+    transform: translate(-5px, -5px);
+    box-shadow:  6px 6px 6px rgba(0, 0, 0, 0.650);
+    transition: transform .2s;
+}
+
+img#youtube:hover {
+    border: 2px solid rgba(224, 26, 26, 0.692);
+    transform: translate(-5px , -5px);
+    transform: translate(-5px, -5px);
+    box-shadow:  6px 6px 6px rgba(0, 0, 0, 0.650);
+    transition: transform .2s;
 }
 
 
