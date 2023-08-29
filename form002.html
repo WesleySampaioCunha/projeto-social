@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 002</title>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(blue, gray) center center;
+            background-attachment: cover;
+        }
+        fieldset {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de Pessoas</h1>
+    <form action="cadastro.js" method="get">
+        <fieldset>
+            <legend>Sexo da Pessoa</legend>
+            <p> <input type="radio" name="sexo" value="M" id="imas" checked><label for="imas">Masculino</label></p>
+            <p> <input type="radio" name="sexo" value="F" id="ifem"><label for="ifem">Feminino</label></p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <p>
+                Nome:<input type="text" name="nome" id="inome" autocomplete="on"
+                 maxlength="20" required placeholder="Digite o nome">
+            </p>
+            <p>
+                E-mail: <input type="email" name="e-mail" id="ie-mail" autocomplete="on" required placeholder="email@email.com">
+            </p>
+            <p>
+                Celular: <input type="tel" name="tel" id="itel" required placeholder="(xx) xxxxx-xxxx">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
